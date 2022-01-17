@@ -1,5 +1,5 @@
-$LogPath = "C:\Users\exw\Desktop\NotServer\edw_x_Launch.txt"
-$XLauncherPath = "C:\Users\exw\Desktop\config.xlaunch"
+$LogPath = "C:\Users\YOUR_PATH\edw_x_Launch.txt"
+$XLauncherPath = "C:\Users\YOUR_PATH\config.xlaunch"
 
 ("Local Time " + (Get-Date -UFormat "%A %m/%d/%Y %R").ToString()) | Format-List >> $LogPath
 
